@@ -1,3 +1,2 @@
-# language : python
+# language : python, JAVA
 
-# project : Maze
