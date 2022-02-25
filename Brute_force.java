@@ -4,17 +4,20 @@ import java.util.Scanner;
 public class Brute_force{
     public static void main(String[] args){
         Scanner inputValue =  new Scanner(System.in);
+        
 
         String [] NM = inputValue.nextLine().split(" ");
         int n = Integer.parseInt(NM[0]);
         int m = Integer.parseInt(NM[1]);
+        int [] cardValueList=new int[n];
+        for(int i=0; i<cardValueList.length; i++){
+            cardValueList[i]=inputValue.nextInt();    
+        }
 
-        String [] cardValueList=inputValue.nextLine().split(" ");
+        ArrayList<Integer> card = new ArrayList<Integer>();
 
-        ArrayList<Integer> card = new ArrayList<>();
-
-        for(String num:cardValueList){
-            card.add(Integer.parseInt(num));
+        for(int num:cardValueList){
+            card.add(num);
         }
 
         int max = 0;
@@ -25,14 +28,11 @@ public class Brute_force{
                     if(sum <= m){
                         max=Math.max(sum, max);
                     }
-                    if(sum==m){
-                        System.out.println(max);
-                        return;
                     }
                 }
             }
-        }
+        
 
-        System.out.println(n);
+        System.out.println(max);
     }
 }
