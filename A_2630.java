@@ -1,8 +1,8 @@
 /*
     Owner : Developer Blog
-    Title : 해싱
-    Algorithm : 해시탐색 알고리즘
-    Date : 2022-02-24
+    Title : 색종이 만들기
+    Algorithm : 분할정복 알고리즘
+    Date : 2022-02-28
 */
 
 import java.util.*;
