@@ -45,7 +45,8 @@ public class A_1012 {
                     // System.out.print(matrix[0][1]);
                     if(matrix[i][j]==1 && !visit[i][j]){
                         numOfBugs=1;
-                        bfs(j,i);
+                        // dfs(j,i)
+                        // bfs(j,i);
                         total.add(numOfBugs);
                     }
                 }
