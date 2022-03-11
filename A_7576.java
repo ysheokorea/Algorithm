@@ -50,7 +50,19 @@ public class A_7576 {
                 }
             }
         }
-        System.out.println(bfs()); 
+
+
+
+        System.out.println(bfs());
+        System.out.println("======================");
+        for(int i=0; i<N; i++){
+            for(int j=0; j<M; j++){
+                System.out.print(counter[i][j]+" ");
+            }
+            System.out.println();
+        }
+
+
     }
 
     public static int bfs(){
