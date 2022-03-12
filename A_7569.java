@@ -1,14 +1,14 @@
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
-import java.awt.Point;
-
 /*
     Owner : Developer Blog
     Title : 토마토 문제
     Algorithm : BFS 알고리즘
     Date : 2022-03-10
 */
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+import java.awt.Point;
 
 class PointXYZ{
     int x;
