@@ -1,3 +1,12 @@
+/*
+    Owner : Developer Blog
+    Title : 프로그래머스 기능 개발
+    Algorithm : 스택/큐 알고리즘
+    Date : 2022-04-01
+*/
+
+
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
